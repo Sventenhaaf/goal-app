@@ -1,0 +1,4 @@
+<h1>Welcome, <%= @user.username %></h1>
+
+<%= link_to "Goals", user_goals_url(@user) %>
+<%= link_to "Create Goal", new_goal_url %>
